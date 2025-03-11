@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<!-- Atividade proposta nos 7 Days of Code da escola de tecnologia Alura-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/globo.ico" type="image/x-icon">
+    <title>7DaysOfCode - HTML e CSS</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <img src="img/globo.svg" alt="Logo da empresa OptimusTech" class="navbar_img">
+                <h1 class="logo">OptimusTech</h1>
+                    <ul class="topics">
+                        <li><a href="#" class="topics__link">Home</a></li>
+                        <li><a href="#" class="topics__link">Produtos</a></li>
+                        <li><a href="#" class="topics__link">Recursos</a></li>
+                        <li><a href="#" class="topics__link">Sobre nós</a></li>
+                    </ul>  
+        </div>
+                    <button id="signin" class="btn_enter">Entrar</button>
+                    <button id="signUp" class="btn_register">Cadastrar</button>
+    </header>
+
+    <section id="about_us">
+        <div class="about_us">
+            <h1 class="about_us-title"> Sobre nós</h1>
+            <h2 class="about_us-subtitle"> Por que somos diferentes</h2>
+            <p class="about_us-txt"> Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas. </p>
+        </div>
+
+        <div class="metrics">
+            <ul class="division">
+                <li> 
+                    <h1 class="met_title">400+</h1>
+                    <h2 class="met_subtitle">Projetos concluídos</h2>
+                    <p class="met_txt">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+                </li>
+                <li> 
+                    <h1 class="met_title">100+</h1>
+                    <h2 class="met_subtitle">Colaboradores</h2>
+                    <p class="met_txt">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+                </li>
+                <li> 
+                    <h1 class="met_title">20k</h1>
+                    <h2 class="met_subtitle">Downloads</h2>
+                    <p class="met_txt">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+                </li>
+                <li> 
+                    <h1 class="met_title">500+</h1>
+                    <h2 class="met_subtitle">Reviews 5 estrelas</h2>
+                    <p class="met_txt">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+                </li>
+
+            </ul>
+        </div>  
+    </section>
+
+    <section id="vacancies">
+        <div class="vacancies_open">
+            <div class="vacancies_open-div">
+                <h1 class="vacancies_open-title"> Vagas abertas!</h1>
+            </div>
+                <h2 class="vacancies_open-subtitle"> Estamos procurando por talentos</h2>
+                <p class="vacancies_open-txt"> Somos uma equipe 100% remota com pessoas do Brasil inteiro. </p>
+            <div class="vacancies_open-img">
+                <img src="img/reuniao.svg" alt="Reunião de negócios" class="img_meeting">
+            </div>
+        </div>
+       
+        <div class="vacancies">
+            <div class="vacancies_area">
+                <span class="vacancies_area-txt"> Design </span>
+                    <div class="vacancies_area_item">
+                        <span class="vacancies_area_item-txt"> Product Design</span>
+                        <span class="vacancies_area_item-dsc">Full-time</span>
+                        <span class="vacancies_area_item-dsc">Faixa salarial: R$7.000</span>
+                    </div>
+                    <div class="vacancies_area_item">
+                        <span class="vacancies_area_item-txt"> Ux Design</span>
+                        <span class="vacancies_area_item-dsc">Full-time</span>
+                        <span class="vacancies_area_item-dsc">Faixa salarial: R$6.000</span>
+                    </div>
+                <span class="vacancies_area-txt"> Desenvolvimento de Software </span>
+                    <div class="vacancies_area_item">
+                        <span class="vacancies_area_item-txt"> Desenvolvedor(a) iOS</span>
+                        <span class="vacancies_area_item-dsc">Full-time</span>
+                        <span class="vacancies_area_item-dsc">Faixa salarial: R$8.000</span>
+                    </div>
+                    <div class="vacancies_area_item">
+                        <span class="vacancies_area_item-txt"> Desenvolvedor(a) Front-end</span>
+                        <span class="vacancies_area_item-dsc">Full-time</span>
+                        <span class="vacancies_area_item-dsc">Faixa salarial: R$7.000</span>
+                    </div>
+                    <div class="vacancies_area_item">
+                        <span class="vacancies_area_item-txt"> Desenvolvedor(a) Back-end</span>
+                        <span class="vacancies_area_item-dsc">Full-time</span>
+                        <span class="vacancies_area_item-dsc">Faixa salarial: R$8.000</span>
+                    </div>      
+        </div>
+    </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="testimonials">
+            <h1 class="testimonials-title"> Veja o que nossos colaboradores falam sobre nós</h1>
+            <h2 class="testimonials-subtitle"> OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+            <img src="img/avatar_julia.svg" alt="Avatar de Júlia Castro">
+            <p class="testimonials-name"> Júlia Castro</p>
+            <p class="testimonials-profession"> Desenvolvedora Web</p>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <h2 class="footer-title">Acompanhe as nossas oportunidades</h2>
+            <p class="footer-txt">Seja o primeiro a saber quando novas vagas serão abertas!</p> 
+            <form>
+                <input type="email" class="footer-input" placeholder="Seu e-mail">
+                <button class="btn-register">Cadastrar</button>
+            </form>
+            <p class="copyright_notice">© 2022 OptimusTech. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+</body>
+
+</html>

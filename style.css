@@ -1,0 +1,34 @@
+@import url("styles/header.css");
+@import url("styles/home.css");
+@import url("styles/footer.css");
+
+:root{
+    --color-main: rgba(255, 255, 255, 1); /*cor de fundo do body, texto bt_register*/
+    --color-font-logo: rgba(58, 64, 78, 1); /*cor font logo*/
+    --color-font-section: rgba(142, 36, 36, 1);/*cor bt_register, cor fonte do título section*/
+    --color-font-section-title:rgba(16, 24, 40, 1);/*cor título section*/
+    --color-font-topics: rgba(102, 112, 133, 1);/*cor texto section*/
+    --color-footer:rgba(249, 250, 251, 1); /*cor fundo footer*/
+    --color-font-copyright: rgba(152, 162, 179, 1); /*cor texto copyright*/
+    --font-main:"Inter";
+}
+
+body{
+    background-color: var(--color-main);
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+button{
+    font-family: var(--font-main);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
