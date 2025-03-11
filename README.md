@@ -19,5 +19,3 @@ Aqui está uma prévia do projeto:
 - Estruturar páginas web com **HTML**.
 - Estilizar elementos utilizando **CSS**.
 - Desenvolver um projeto responsivo e visualmente atrativo.
-
-Você pode personalizar o texto, substituir o link do screenshot e ajustar os detalhes para refletir melhor o seu projeto. Se precisar de algo mais, é só avisar! 😊
